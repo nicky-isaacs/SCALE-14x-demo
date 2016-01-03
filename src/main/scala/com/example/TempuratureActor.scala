@@ -8,6 +8,13 @@ deltas
 */
 
 object TempuratureActor {
+
+   /**
+    * Case classes in this sample, but in prod we use
+    * Thrift strcuts to more easily reason about serializaion
+    * guaruntees. Pro-tip.
+    */
+
     sealed trait TempuratureCmd
     case class IncreaseTempurature(delta: Int) extends TempuratureCmd
     case class DecreaseTempurature(delta: Int) extends TempuratureCmd
