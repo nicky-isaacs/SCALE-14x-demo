@@ -1,4 +1,4 @@
-activator-akka-scala-seed
+SCALE-14x Demo
 =========================
 
-A minimal seed template for an Akka with Scala build 
+A simple example of a persistent actor for my talk at SCALE 14x
